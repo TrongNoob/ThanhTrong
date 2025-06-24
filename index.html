@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Thanh Trọng | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <button class="mode-toggle" onclick="toggleMode()">🌓</button>
+
+  <!-- Hiệu ứng tuyết + chữ -->
+  <div class="snow-wrapper">
+    <div class="snow-text">Thanh Trong Dev</div>
+    <img src="images/snow-image.png" class="snow-image" alt="" />
+  </div>
+
+  <div class="card">
+    <img src="images/avatar.jpg" alt="Avatar" class="avatar" />
+    <h2 class="glow">Hồ Phạm Thành Trọng</h2>
+    <p class="glow email">📧 trongpham812421@gmail.com</p>
+
+    <div class="socials">
+      <a href="https://facebook.com/TrongNoob135" target="_blank"><i class="fab fa-facebook glow"></i></a>
+      <a href="https://t.me/TrongNoon" target="_blank"><i class="fab fa-telegram glow"></i></a>
+      <a href="https://tiktok.com/@trongnoob135" target="_blank"><i class="fab fa-tiktok glow"></i></a>
+      <a href="https://instagram.com/yourname" target="_blank"><i class="fab fa-instagram glow"></i></a>
+      <a href="https://your-other-site.com" target="_blank"><i class="fas fa-globe glow"></i></a>
+    </div>
+
+    <p class="credit glow">project © Thanh Trong Dev</p>
+  </div>
+
+  <script>
+    function toggleMode() {
+      document.body.classList.toggle("light-mode");
+    }
+  </script>
+</body>
+</html>
